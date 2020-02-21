@@ -56,7 +56,7 @@ def total_gross(source)
   
   counter = 0
   while counter is < names.length do 
-
+total += earnings[names[counter]]
   counter += 1
   # Write this implementation
   #
