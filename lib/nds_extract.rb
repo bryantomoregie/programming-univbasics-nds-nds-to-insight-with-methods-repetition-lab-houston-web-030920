@@ -55,7 +55,7 @@ def total_gross(source)
   names = list_of_directors(source)
   binding.pry
   counter = 0
-  
+  while counter is < names.length do 
 
   counter += 1
   # Write this implementation
