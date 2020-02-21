@@ -53,7 +53,7 @@ def total_gross(source)
   total = 0 
   earnings = directors_totals(source)
   names = list_of_directors(source)
-  binding.pry
+  
   counter = 0
   while counter is < names.length do 
 
