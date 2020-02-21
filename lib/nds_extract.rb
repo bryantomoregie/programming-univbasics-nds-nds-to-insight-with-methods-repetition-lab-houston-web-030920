@@ -55,7 +55,7 @@ def total_gross(source)
   names = list_of_directors(source)
   
   counter = 0
-  while counter is < names.length do 
+  while counter < names.length do 
 total += earnings[names[counter]]
   counter += 1
   # Write this implementation
@@ -67,7 +67,7 @@ total += earnings[names[counter]]
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
-
+end 
 total   
 end
 
